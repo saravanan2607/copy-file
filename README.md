@@ -35,12 +35,9 @@ with open("copy.txt", "r") as firstfile:
     with open("text.txt", "a") as secondfile:
         for line in firstfile:
             secondfile.write(line)
+```
 
 ### OUTPUT:
-![image](/https://user-images.githubusercontent.com/121395849/214924605-83b3c7e3-5901-472b-93c9-ff26fd201099.jpg)
-
-
-
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
